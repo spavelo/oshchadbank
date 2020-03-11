@@ -1,0 +1,34 @@
+header {
+  display:flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background-color: black;
+  font-size: 8px;
+}
+
+.menu_left button {
+  text-transform: uppercase;
+}
+.menu_right {
+
+}
+header > button  .search {
+  background-color: black;
+  color: #161a1b;
+  border: black;
+}
+
+header>select>option {
+  background-color: black;
+}
+.menu_right>.search {
+  width: 130px;
+}
+.search_icon {
+  height: 18px;
+  width: 18px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/1200px-Vector_search_icon.svg.png");
+  background-size: 15px 15px;
+  text-align: end;
+  background-repeat: no-repeat;
+}
