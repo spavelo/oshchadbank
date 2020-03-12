@@ -2,7 +2,7 @@
   outline: none;
 }
 .container {
-  width: 1440px;
+  width: 80%;
   margin: auto;
   display: flex;
 }
@@ -11,8 +11,5 @@ button, a {
 }
 section {
   width: 100%;
-  .nav__menu {
-    display: flex;
-    justify-content: flex-end;
-  }
 }
+

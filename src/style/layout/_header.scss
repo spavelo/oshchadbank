@@ -32,3 +32,22 @@ header > button {
 .menu_left>button {
   @include name($color_main,#C2C52E,#A8AA2A,#DCE123);
 }
+
+nav {
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25px;
+  button {
+    padding: 33px 20px 20px 20px;
+    text-transform: uppercase;
+    font-family: $text_secondary;
+    font-weight: bolder;
+    border: none;
+  }
+}
+.main {
+  border: 3px solid red;
+  background: #7196da;
+  margin-right: 15px;
+}
