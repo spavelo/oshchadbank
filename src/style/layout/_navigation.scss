@@ -2,21 +2,83 @@ aside {
   order: 2;
   width: 240px;
   height: 100%;
-  background: #000;
+  background: #4B5153;
 
-  button {
+  .search_container {
+    background: #000;
+
+    .search_icon {
+      align-self: center;
+      width: 18px;
+      height: 18px;
+      background-image: url("/img/dashbord/search.png");
+      background-repeat: no-repeat;
+      border: none;
+      padding: 0;
+      margin-left: 10px;
+    }
+
+    .search {
+      width: 130px;
+      border: none;
+      color: $color_main;
+      font-family: $text_aside;
+      font-size: inherit;
+    }
+  }
+
+  .title {
+    padding: 31px 35px 15px;
+    font-family: $text_main;
   }
 
   .text {
-    color: #929c9f;
+    font-size: 11px;
+    color: $color_main;
+    padding-left: 35px;
+    font-family: $text_main;
   }
-}
 
-section {
-  width: 100%;
+  button {
+    color: $text_white;
+    background: #4B5153;
+    border: none;
+    font-family: $text_aside;
+    font-size: inherit;
+    padding: 11px 35px 11px 35px;
+  }
 
-  .nav__menu {
-    display: flex;
-    justify-content: flex-end;
+  .search {
+    margin: 19px 0;
+    background: #000;
+  }
+
+  .enter > img, a {
+    font-family: $text_aside;
+    padding-left: 8px;
+    text-decoration: none;
+    @include aside_enter(#F4F750, #C2C52E, #A8AA2A, #DCE123);
+  }
+
+  .aside_footer {
+    margin-top: 250px;
+
+    .phone_number {
+      font-size: 19px;
+      font-family: $text_aside;
+      color: $text_white;
+      padding-left: 15px;
+    }
+
+    .help {
+padding-left: 15px;
+      background: #000;
+      margin-bottom: 10px;
+
+      button {
+        background: #000;
+        padding-left: 0;
+      }
+    }
   }
 }

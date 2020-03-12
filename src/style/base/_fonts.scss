@@ -1,0 +1,45 @@
+$bg_header: #000;
+$bg_aside: #212628;
+$color_main: #929c9f;
+$text_white: #fff;
+$text_aside: 'Open Sans Condensed', sans-serif;
+$text_main: 'Prosto One', cursive;
+
+@mixin name ($link, $hover,$active, $visited) {
+  color: $link;
+&:hover {
+  color: $hover;
+}
+&:active {
+  color: $active;
+}
+&visited {
+  color: $visited;
+}
+}
+
+@mixin aside_enter ($link, $hover,$active, $visited) {
+  color: $link;
+  &:hover {
+    color: $hover;
+  }
+  &:active {
+    color: $active;
+  }
+  &visited {
+    color: $visited;
+  }
+}
+@mixin bg_header_language ($link, $hover,$active, $visited) {
+  color: $link;
+  &:hover {
+    color: $hover;
+
+  }
+  &:active {
+    color: $active;
+  }
+  &visited {
+    color: $visited;
+  }
+}
