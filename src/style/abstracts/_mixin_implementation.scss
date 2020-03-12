@@ -1,0 +1,17 @@
+.small_primary {
+  @include font_fabric($font_small, $text_primary);
+}
+
+.small_fill_1 {
+  @include font_fabric($font_small, $text_fill_1);
+}
+
+.small_secondary {
+  @include font_fabric($font_small, $text_secondary);
+}
+
+.large_primary {
+  @include font_fabric($font_large, $text_primary);
+}
+
+

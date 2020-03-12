@@ -1,0 +1,43 @@
+@mixin font_fabric($fontSize, $fontColor) {
+  font-size: $fontSize;
+  color: $fontColor;
+}
+
+@mixin name($link, $hover, $active, $visited) {
+  color: $link;
+  &:hover {
+    color: $hover;
+  }
+  &:active {
+    color: $active;
+  }
+  &visited {
+    color: $visited;
+  }
+}
+
+@mixin aside_enter($link, $hover, $active, $visited) {
+  color: $link;
+  &:hover {
+    color: $hover;
+  }
+  &:active {
+    color: $active;
+  }
+  &visited {
+    color: $visited;
+  }
+}
+
+@mixin bg_header_language($link, $hover,$active, $visited) {
+  color: $link;
+  &:hover {
+    color: $hover;
+  }
+  &:active {
+    color: $active;
+  }
+  &visited {
+    color: $visited;
+  }
+}

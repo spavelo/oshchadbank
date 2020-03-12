@@ -1,21 +1,4 @@
-$color_primary: #7196da;
-$color_secondary: #212628;
-$color_fill_1: #929c9f;
-$color_white: #fff;
-$color_black: #000;
-
-$bg_primary: #7196da;
-$bg_secondary: #212628;
-$bg__fill_1: #929c9f;
-$bg_white: #fff;
-$bg_black: #000;
-
-$text_primary: #7196da;
-$text_secondary: #212628;
-$text_fill_1: #929c9f;
-$text_white: #fff;
-$text_black: #000;
-
+//TODO: delete all
 $bg_header: #000;
 $bg_aside: #212628;
 $color_main: #929c9f;
@@ -23,42 +6,3 @@ $text_white: #fff;
 $text_aside: 'Open Sans Condensed', sans-serif;
 $text_main: 'Prosto One', cursive;
 $text_secondary: 'Russo One', sans-serif;
-
-@mixin name($link, $hover,$active, $visited) {
-  color: $link;
-  &:hover {
-    color: $hover;
-  }
-  &:active {
-    color: $active;
-  }
-  &visited {
-    color: $visited;
-  }
-}
-
-@mixin aside_enter($link, $hover,$active, $visited) {
-  color: $link;
-  &:hover {
-    color: $hover;
-  }
-  &:active {
-    color: $active;
-  }
-  &visited {
-    color: $visited;
-  }
-}
-
-@mixin bg_header_language($link, $hover,$active, $visited) {
-  color: $link;
-  &:hover {
-    color: $hover;
-  }
-  &:active {
-    color: $active;
-  }
-  &visited {
-    color: $visited;
-  }
-}

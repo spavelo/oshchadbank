@@ -25,15 +25,16 @@ aside {
       font-size: inherit;
     }
   }
-  .title {
+  .bank_name {
+    @extend .small_fill_1;
+    font-family: $font_face_secondary;
     padding: 31px 35px 15px;
-    font-family: $text_main;
   }
-  .text {
+  .category {
     font-size: 11px;
     color: $color_main;
+    font-family: $font_face_secondary;
     padding-left: 35px;
-    font-family: $text_main;
   }
   button {
     color: $text_white;
