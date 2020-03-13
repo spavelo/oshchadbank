@@ -1,36 +1,42 @@
 
 header {
-  display:flex;
+  display: flex;
   justify-content: space-between;
-  padding: 20px 60px;
+  padding: 20px 20px 10px 35px;
   background-color: black;
-  font-size: 10px;
 }
+
 .menu_left button {
   text-transform: uppercase;
-  background: $bg_header;
+  background: $bg_black;
   border: none;
-  color: $color_main;
+  color: $color_secondary;
+  font-size: $font_small;
 }
-.menu_right>button, select {
-  background: $bg_header;
+
+.menu_right > button, select {
+  background: $bg_black;
   border: none;
-  color: $color_main;
-  @include name($color_main,#C2C52E,#A8AA2A,#DCE123);
+  color: $color_fill_1;
+  @include name($color_fill_1, #C2C52E, #A8AA2A, #DCE123);
 }
-.menu_right>.menu_right_little {
+
+.menu_right > .menu_right_little {
   font-size: 10px;
 }
-.menu_right>.menu_right_big {
+
+.menu_right > .menu_right_big {
   font-size: 18px;
 }
+
 header > button {
   background-color: black;
   color: #161a1b;
   border: black;
 }
-.menu_left>button {
-  @include name($color_main,#C2C52E,#A8AA2A,#DCE123);
+
+.menu_left > button {
+  @include name($color_fill_1, #C2C52E, #A8AA2A, #DCE123);
 }
 
 nav {
@@ -38,16 +44,73 @@ nav {
   display: flex;
   justify-content: flex-end;
   padding-right: 25px;
+
   button {
-    padding: 33px 20px 20px 20px;
+    min-width: 80px;
+    height: 25px;
+    padding: 33px 0 30px 0;
     text-transform: uppercase;
     font-family: $text_secondary;
     font-weight: bolder;
     border: none;
   }
+
 }
-.main {
-  border: 3px solid red;
+
+nav:hover {
+  button:hover {
+    min-width: 80px;
+    max-height: 15px;
+    margin-top: 15px;
+    padding: 20px 0 28px 0;
+    text-transform: uppercase;
+    font-family: $text_secondary;
+    font-weight: bolder;
+    border: none;
+    background: $bg__fill_2;
+  }
+}
+
+main {
   background: #7196da;
   margin-right: 15px;
+  position: relative;
+  padding-left: 60px;
+
+  .logo {
+    position: absolute;
+    left: 40px;
+    top: -52px;
+  }
+
+  .main_title {
+    padding: 78px 15px 0 0;
+  }
+
+  .subtitle > div {
+    font-family: $font_face_fill_1;
+    padding: 9px 0;
+  }
+
+  .subtitle {
+    .valuta {
+      padding: 35px 0 20px;
+    }
+
+    .description {
+      padding-top: 45px;
+    }
+  }
+
+  .quote {
+    position: absolute;
+    right: 15px;
+    bottom: -32px;
+    background: $bg__fill_2;
+    font-family: $font_face_third;
+    word-spacing: 3px;
+    padding: 20px 40px 25px;
+    line-height: 25px;
+  }
+
 }

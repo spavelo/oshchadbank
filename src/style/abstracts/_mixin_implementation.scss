@@ -1,7 +1,6 @@
 .small_primary {
   @include font_fabric($font_small, $text_primary);
 }
-
 .small_fill_1 {
   @include font_fabric($font_small, $text_fill_1);
 }
@@ -9,9 +8,35 @@
 .small_secondary {
   @include font_fabric($font_small, $text_secondary);
 }
-
+.small_white {
+  @include font_fabric($font_small, $text_white)
+}
+.small_x_black {
+  @include font_fabric($font_x_small, $text_black)
+}
+.medium_primary {
+  @include font_fabric($font_medium, $text_white);
+}
+.medium_secondary {
+  @include font_fabric($font_medium, $text_secondary);
+}
+.medium_black {
+  @include font_fabric($font_medium, $text_black);
+}
 .large_primary {
   @include font_fabric($font_large, $text_primary);
+}
+.large_x_white {
+  @include font_fabric($font_x_large, $text_white);
+
+}
+.large_xxl_primary {
+  @include font_fabric($font_xxl_large, $text_white);
+  font-family: $font_face_third;
+}
+.large_xxl_medium {
+  @include font_fabric($font_xxl_medium, $text_white);
+  font-family: $font_face_secondary;
 }
 
 

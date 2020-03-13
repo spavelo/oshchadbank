@@ -3,10 +3,11 @@
 }
 .container {
   width: 80%;
+  max-width: 1140px;
   margin: auto;
   display: flex;
 }
-button, a {
+button, a, label {
   cursor: pointer;
 }
 section {

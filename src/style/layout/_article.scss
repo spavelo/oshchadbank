@@ -1,0 +1,7 @@
+article {
+  .table {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+    width: 875px;
+  }
+}
