@@ -8,14 +8,14 @@ header {
 
 .menu_left button {
   text-transform: uppercase;
-  background: $bg_black;
+  background: $bg_color_colorblack;
   border: none;
-  color: $color_secondary;
+  color: $color_fill_4;
   font-size: $font_small;
 }
 
 .menu_right > button, select {
-  background: $bg_black;
+  background: $bg_color_black;
   border: none;
   color: $color_fill_1;
   @include name($color_fill_1, #C2C52E, #A8AA2A, #DCE123);
@@ -50,7 +50,7 @@ nav {
     height: 25px;
     padding: 33px 0 30px 0;
     text-transform: uppercase;
-    font-family: $text_secondary;
+    font-family: $text_color_fill_4;
     font-weight: bolder;
     border: none;
   }
@@ -64,10 +64,10 @@ nav:hover {
     margin-top: 15px;
     padding: 20px 0 28px 0;
     text-transform: uppercase;
-    font-family: $text_secondary;
+    font-family: $text_color_fill_4;
     font-weight: bolder;
     border: none;
-    background: $bg__fill_2;
+    background: $bg_color_fill_2;
   }
 }
 
@@ -88,7 +88,7 @@ main {
   }
 
   .subtitle > div {
-    font-family: $font_face_fill_1;
+    font-family: $font_fourth;
     padding: 9px 0;
   }
 
@@ -106,8 +106,8 @@ main {
     position: absolute;
     right: 15px;
     bottom: -32px;
-    background: $bg__fill_2;
-    font-family: $font_face_third;
+    background: $bg_color_fill_2;
+    font-family: $font_third;
     word-spacing: 3px;
     padding: 20px 40px 25px;
     line-height: 25px;
