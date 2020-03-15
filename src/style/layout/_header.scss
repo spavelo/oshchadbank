@@ -6,7 +6,7 @@ header {
   background-color: black;
 }
 
-.menu_left button {
+.type_of_business button {
   text-transform: uppercase;
   background: $bg_color_colorblack;
   border: none;
@@ -14,18 +14,18 @@ header {
   font-size: $font_small;
 }
 
-.menu_right > button, select {
+.font_size_container > button, select {
   background: $bg_color_black;
   border: none;
   color: $color_fill_1;
   @include name($color_fill_1, #C2C52E, #A8AA2A, #DCE123);
 }
 
-.menu_right > .menu_right_little {
+.font_size_container > .font_size_small {
   font-size: 10px;
 }
 
-.menu_right > .menu_right_big {
+.font_size_container > .font_size_big {
   font-size: 18px;
 }
 
@@ -35,7 +35,7 @@ header > button {
   border: black;
 }
 
-.menu_left > button {
+.type_of_business > button {
   @include name($color_fill_1, #C2C52E, #A8AA2A, #DCE123);
 }
 
