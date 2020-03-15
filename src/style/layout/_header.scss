@@ -8,7 +8,7 @@ header {
 
 .menu_left button {
   text-transform: uppercase;
-  background: $bg_color_colorblack;
+  background: $bg_color_black;
   border: none;
   color: $color_fill_4;
   font-size: $font_small;
@@ -71,46 +71,3 @@ nav:hover {
   }
 }
 
-main {
-  background: #7196da;
-  margin-right: 15px;
-  position: relative;
-  padding-left: 60px;
-
-  .logo {
-    position: absolute;
-    left: 40px;
-    top: -52px;
-  }
-
-  .main_title {
-    padding: 78px 15px 0 0;
-  }
-
-  .subtitle > div {
-    font-family: $font_fourth;
-    padding: 9px 0;
-  }
-
-  .subtitle {
-    .valuta {
-      padding: 35px 0 20px;
-    }
-
-    .description {
-      padding-top: 45px;
-    }
-  }
-
-  .quote {
-    position: absolute;
-    right: 15px;
-    bottom: -32px;
-    background: $bg_color_fill_2;
-    font-family: $font_third;
-    word-spacing: 3px;
-    padding: 20px 40px 25px;
-    line-height: 25px;
-  }
-
-}
