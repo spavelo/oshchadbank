@@ -23,36 +23,36 @@ aside {
       width: 130px;
       border: none;
       color: $color_fill_1;
-      font-family: $font_face_primary;
+      font-family: $font_primary;
       font-size: inherit;
-      background: $bg_black;
+      background: $bg_color_black;
     }
   }
 
   .bank_name {
     @extend .small_fill_1;
-    font-family: $font_face_secondary;
+    font-family: $font_secondary;
     padding: 31px 35px 15px;
   }
 
   .category {
     font-size: 11px;
     color: $color_fill_1;
-    font-family: $font_face_secondary;
+    font-family: $font_secondary;
     padding-left: 35px;
   }
 
   button {
-    color: $text_white;
+    color: $text_color_white;
     background: #4B5153;
     border: none;
-    font-family: $font_face_primary;
+    font-family: $font_primary;
     font-size: inherit;
     padding: 11px 35px 11px 35px;
   }
 
   .enter > img, a {
-    font-family: $font_face_primary;
+    font-family: $font_primary;
     padding-left: 8px;
     text-decoration: none;
     @include aside_enter(#F4F750, #C2C52E, #A8AA2A, #DCE123);
@@ -63,14 +63,14 @@ aside {
 
     .phone_number {
       font-size: 19px;
-      font-family: $font_face_primary;
-      color: $text_white;
+      font-family: $font_primary;
+      color: $text_color_white;
       padding-left: 15px;
       margin-bottom: 16px;
     }
 
     .help {
-      background: $bg_black;
+      background: $bg_color_black;
       margin-bottom: 25px;
 
       button {
@@ -86,8 +86,8 @@ aside {
 
     .help:hover {
       button:hover {
-        color: $text_black;
-        background: $bg__fill_2;
+        color: $text_color_black;
+        background: $bg_color_fill_2;
         background-image: url("/img/dashbord/help_black.png");
         background-repeat: no-repeat;
         background-position: 15px 14px;
@@ -96,7 +96,7 @@ aside {
 
     .help:active {
       button:active {
-        color: $text_black;
+        color: $text_color_black;
         background: #C2C52E;
         background-image: url("/img/dashbord/help_black.png");
         background-repeat: no-repeat;
