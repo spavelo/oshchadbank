@@ -1,6 +1,6 @@
 footer {
   background: $bg_color_fill_4;
-  padding: 56px 60px;
+  padding: 46px 60px;
   border: none;
 
   .footer_container {
@@ -20,6 +20,7 @@ footer {
         border: none;
         text-align: start;
         padding: 5px 0;
+        @include interaction(#ebebeb, #C2C52E, #A8AA2A, #DCE123);
       }
 
       .phone_numder {
@@ -32,12 +33,12 @@ footer {
       display: flex;
       flex-direction: row;
       justify-content: start;
-      padding: 6px 0;
 
       a {
         height: 18px;
         width: 18px;
         border: 1px solid red;
+        margin: 0 5px 0 0;
       }
     }
 
@@ -54,6 +55,7 @@ footer {
   .supcategory {
     word-spacing: 5px;
     line-height: 14px;
+    font-family: $font_fourth;
 
   }
 }
