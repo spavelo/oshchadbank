@@ -1,0 +1,19 @@
+footer {
+  background: #4B5153;
+  .footer_container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 90px ;
+    div {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+    }
+    .social_media {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+    }
+  }
+
+}

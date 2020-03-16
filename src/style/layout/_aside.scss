@@ -1,8 +1,8 @@
 aside {
   order: 2;
   width: 240px;
-  height: 100%;
-  background: #4B5153;
+  min-height: 100%;
+  background: $bg_color_fill_5;
 
   .search {
     background: #000;

@@ -28,7 +28,6 @@
 }
 .large_x_white {
   @include font_fabric($font_x_large, $text_color_white);
-
 }
 .large_xxl_primary {
   @include font_fabric($font_xxl_large, $text_color_white);
