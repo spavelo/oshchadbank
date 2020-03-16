@@ -2,7 +2,7 @@ aside {
   order: 2;
   width: 240px;
   min-height: 100%;
-  background: $bg_color_fill_5;
+  background: $bg_color_fill_4;
 
   .search {
     background: #000;
@@ -44,7 +44,7 @@ aside {
 
   button {
     color: $text_color_white;
-    background: #4B5153;
+    background: $bg_color_fill_4;
     border: none;
     font-family: $font_primary;
     font-size: inherit;

@@ -1,19 +1,59 @@
 footer {
-  background: #4B5153;
+  background: $bg_color_fill_4;
+  padding: 56px 60px;
+  border: none;
+
   .footer_container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    column-gap: 90px ;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 80px;
+    align-items: start;
+
     div {
       display: flex;
       justify-content: space-around;
       flex-direction: column;
+      padding: 8px 0;
+
+      button {
+        background: $bg_color_fill_4;
+        border: none;
+        text-align: start;
+        padding: 5px 0;
+      }
+
+      .phone_numder {
+        padding: 8px 0 0 0;
+
+      }
     }
+
     .social_media {
       display: flex;
       flex-direction: row;
       justify-content: start;
+      padding: 6px 0;
+
+      a {
+        height: 18px;
+        width: 18px;
+        border: 1px solid red;
+      }
+    }
+
+    .medium_x_white {
+      font-family: $font_fourth;
     }
   }
 
+  .category {
+    font-family: $font_third;
+    padding: 8px 0;
+  }
+
+  .supcategory {
+    word-spacing: 5px;
+    line-height: 14px;
+
+  }
 }

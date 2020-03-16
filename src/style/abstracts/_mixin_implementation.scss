@@ -26,6 +26,9 @@
 .large_primary {
   @include font_fabric($font_large, $text_color_fill_3);
 }
+.medium_x_white {
+  @include font_fabric($font_x_medium, $text_color_white);
+}
 .large_x_white {
   @include font_fabric($font_x_large, $text_color_white);
 }
@@ -33,7 +36,7 @@
   @include font_fabric($font_xxl_large, $text_color_white);
   font-family: $font_third;
 }
-.large_xxl_medium {
+.large_xxl_white {
   @include font_fabric($font_xxl_medium, $text_color_white);
   font-family: $font_secondary;
 }
