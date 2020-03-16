@@ -5,7 +5,7 @@ aside {
   background: $bg_color_fill_4;
 
   .search {
-    background: #000;
+    background:$bg_color_black;
     padding: 15px;
 
     label {
@@ -55,7 +55,7 @@ aside {
     font-family: $font_primary;
     padding-left: 8px;
     text-decoration: none;
-    @include interaction(#F4F750, #C2C52E, #A8AA2A, #DCE123);
+    @include interaction($text_color_fill_8,$text_color_fill_5,$text_color_fill_6,$text_color_fill_7);
   }
 
   .aside_footer {
@@ -75,7 +75,7 @@ aside {
 
       button {
         width: 240px;
-        background: #000;
+        background: $bg_color_black;
         padding-left: 0;
         background-image: url("/img/dashbord/help.png");
         background-repeat: no-repeat;
@@ -97,7 +97,7 @@ aside {
     .help:active {
       button:active {
         color: $text_color_black;
-        background: #C2C52E;
+        background: $bg_color_fill_6;
         background-image: url("/img/dashbord/help_black.png");
         background-repeat: no-repeat;
         background-position: 15px 14px;

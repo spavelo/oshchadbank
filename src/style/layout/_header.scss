@@ -18,7 +18,7 @@ header {
   background: $bg_color_black;
   border: none;
   color: $color_fill_1;
-  @include interaction($color_fill_1, #C2C52E, #A8AA2A, #DCE123);
+  @include interaction($color_fill_1,$text_color_fill_5,$text_color_fill_6,$text_color_fill_7);
 }
 
 .font_size_container > .font_size_small {
@@ -31,12 +31,12 @@ header {
 
 header > button {
   background-color: black;
-  color: #161a1b;
+  color: $text_color_access_1;
   border: black;
 }
 
 .type_of_business > button {
-  @include interaction($color_fill_1, #C2C52E, #A8AA2A, #DCE123);
+  @include interaction($color_fill_1,$text_color_fill_5,$text_color_fill_6,$text_color_fill_7);
 }
 
 nav {
