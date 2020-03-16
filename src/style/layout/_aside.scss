@@ -55,7 +55,7 @@ aside {
     font-family: $font_primary;
     padding-left: 8px;
     text-decoration: none;
-    @include aside_enter(#F4F750, #C2C52E, #A8AA2A, #DCE123);
+    @include chameleon(#F4F750, #C2C52E, #A8AA2A, #DCE123);
   }
 
   .aside_footer {

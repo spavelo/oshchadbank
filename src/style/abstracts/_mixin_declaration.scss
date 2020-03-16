@@ -3,7 +3,7 @@
   color: $fontColor;
 }
 
-@mixin name($link, $hover, $active, $visited) {
+@mixin chameleon($link, $hover, $active, $visited) {
   color: $link;
   &:hover {
     color: $hover;
@@ -16,7 +16,7 @@
   }
 }
 
-@mixin aside_enter($link, $hover, $active, $visited) {
+@mixin chameleon($link, $hover, $active, $visited) {
   color: $link;
   &:hover {
     color: $hover;
@@ -29,7 +29,7 @@
   }
 }
 
-@mixin bg_header_language($link, $hover,$active, $visited) {
+@mixin chameleon($link, $hover,$active, $visited) {
   color: $link;
   &:hover {
     color: $hover;
