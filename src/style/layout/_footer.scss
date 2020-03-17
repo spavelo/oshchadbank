@@ -13,18 +13,19 @@ footer {
       display: flex;
       justify-content: space-around;
       flex-direction: column;
-      padding: 8px 0;
+      padding-top: 16px;
 
       button {
         background: $bg_color_fill_4;
         border: none;
         text-align: start;
         padding: 5px 0;
-        @include interaction(#ebebeb, #C2C52E, #A8AA2A, #DCE123);
+        @include interaction($text_color_access_2, $text_color_fill_5, $text_color_fill_6, $text_color_fill_7);
+        @extend .small_white;
       }
 
       .phone_numder {
-        padding: 8px 0 0 0;
+        padding: 0 !important;
 
       }
     }
@@ -35,14 +36,18 @@ footer {
       justify-content: start;
 
       a {
-        height: 18px;
-        width: 18px;
-        border: 1px solid red;
-        margin: 0 5px 0 0;
+        margin: 0 7px 0 0;
+        background: $bg_color_white;
+
+        img {
+          height: 21px;
+          width: 23px;
+
+        }
       }
     }
 
-    .medium_x_white {
+    .x_medium_white {
       font-family: $font_fourth;
     }
   }
@@ -54,8 +59,9 @@ footer {
 
   .supcategory {
     word-spacing: 5px;
-    line-height: 14px;
+    line-height: 18px;
     font-family: $font_fourth;
+    padding-top: 2px !important;
 
   }
 }
