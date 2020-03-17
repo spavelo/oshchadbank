@@ -24,6 +24,8 @@ section {
 
   .main_title {
     padding: 78px 15px 0 0;
+    @extend .xxl_large_white;
+    font-family: $font_third;
   }
 
   .subtitle > div {
@@ -32,8 +34,9 @@ section {
   }
 
   .subtitle {
-    .valuta {
+    .currency {
       padding: 35px 0 20px;
+      @extend .xxl_medium_white;
     }
 
     .description {
