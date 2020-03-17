@@ -1,0 +1,67 @@
+footer {
+  background: $bg_color_fill_4;
+  padding: 46px 60px;
+  border: none;
+
+  .footer_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 80px;
+    align-items: start;
+
+    div {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      padding-top: 16px;
+
+      button {
+        background: $bg_color_fill_4;
+        border: none;
+        text-align: start;
+        padding: 5px 0;
+        @include interaction($text_color_access_2, $text_color_fill_5, $text_color_fill_6, $text_color_fill_7);
+        @extend .small_white;
+      }
+
+      .phone_numder {
+        padding: 0 !important;
+
+      }
+    }
+
+    .social_media {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+
+      a {
+        margin: 0 7px 0 0;
+        background: $bg_color_white;
+
+        img {
+          height: 21px;
+          width: 23px;
+
+        }
+      }
+    }
+
+    .x_medium_white {
+      font-family: $font_fourth;
+    }
+  }
+
+  .category {
+    font-family: $font_third;
+    padding: 8px 0;
+  }
+
+  .supcategory {
+    word-spacing: 5px;
+    line-height: 18px;
+    font-family: $font_fourth;
+    padding-top: 2px !important;
+
+  }
+}
