@@ -17,6 +17,9 @@
 .x_small_black {
   @include font_fabric($font_x_small, $text_color_black)
 }
+.x_small_white {
+  @include font_fabric($font_x_small, $text_color_white);
+}
 .medium_primary {
   @include font_fabric($font_medium, $text_color_white);
 }
@@ -26,12 +29,22 @@
 .medium_black {
   @include font_fabric($font_medium, $text_color_black);
 }
+.medium_white {
+  @include font_fabric($font_medium, $text_color_white);
+
+}
 .large_primary {
   @include font_fabric($font_large, $text_color_fill_3);
 }
+.x_small_black {
+  @include font_fabric($font_x_small, $text_color_black);
+
+}
 .x_medium_black {
   @include font_fabric($font_x_medium, $text_color_black);
-
+}
+.x_medium_white {
+  @include font_fabric($font_x_medium, $text_color_white);
 }
 .x_large_black {
   @include font_fabric($font_x_large, $text_color_black);

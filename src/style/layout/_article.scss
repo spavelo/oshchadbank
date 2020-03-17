@@ -72,6 +72,7 @@ article {
     }
   }
 }
+
 .open_deposit_way {
   display: flex;
   width: 100%;
@@ -82,13 +83,38 @@ article {
   .title {
     @extend .x_large_white;
     font-family: $font_third;
+    padding-bottom: 25px;
   }
-  .content {
-    padding: 55px 215px 110px 60px;
 
+  .content {
+    padding: 55px 70px 70px 50px;
+    @extend .x_small_white;
+    font-family: $font_fourth;
+
+    .content_bold {
+      font-weight: 700;
+      padding: 20px 0;
+    }
+
+    .phone_number {
+      padding-top: 20px !important;
+      @extend .x_medium_white;
+      font-weight: bolder;
+    }
   }
+
   .map {
     width: 350px;
     height: 475px;
+    position: relative;
+    button {
+      width: 310px;
+      height: 46px;
+      position: absolute;
+      right: 19px;
+      bottom: 12px;
+      font-family: $font_third;
+      font-size: $font_x_small;
+    }
   }
 }
