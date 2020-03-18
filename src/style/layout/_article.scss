@@ -1,8 +1,120 @@
-article {
+.deposit {
+  margin: 50px 0 0 60px;
+
+  .title {
+    @extend .x_large_black;
+    font-family: $font_third;
+    font-weight: bolder;
+  }
+
+  select {
+    border: 1px solid blue;
+    border-radius: 0;
+    background: $bg_color_white;
+    width: 135px;
+    height: 36px;
+    @include interaction($text_color_black, $text_color_fill_4, $text_color_fill_4, $text_color_fill_1)
+  }
+
   .table {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
     width: 875px;
+    grid-gap: 18px;
+    padding: 20px 0 20px 0;
+
+    .table_currency {
+      @extend .small_fill_1;
+    }
+
+    .table_time {
+      @extend .x_small_black;
+      font-family: $font_fourth;
+    }
+
+    .table_persent {
+      @extend .medium_black;
+      font-family: $font_fourth;
+      font-weight: bolder;
+    }
+  }
+
+  button {
+    width: 320px;
+    height: 46px;
+    @extend .x_small_black;
+    font-family: $font_secondary;
+    border: 1px solid blue;
+    margin: 20px 0 60px 0;
+  }
+}
+
+.loyalty_program {
+  margin: 0 0 0 60px;
+  max-width: 468px;
+  line-height: 22px;
+  word-spacing: 5px;
+
+  div {
+    @extend .x_small_black;
+    font-family: $font_fourth;
+
+    img {
+      padding: 10px 0 0 0;
+    }
+  }
+
+  .title {
+    @extend .x_large_black;
+    font-family: $font_third;
+    font-weight: bolder;
+    padding: 20px 0 20px 0;
+  }
+}
+
+.open_deposit_way {
+  display: flex;
+  width: 100%;
+  max-width: 919px;
+  margin-right: 15px;
+  background: $bg_color_fill_7;
+
+  .title {
+    @extend .x_large_white;
+    font-family: $font_third;
+    padding-bottom: 25px;
+  }
+
+  .content {
+    padding: 55px 70px 70px 50px;
+    @extend .x_small_white;
+    font-family: $font_fourth;
+
+    .content_bold {
+      font-weight: 700;
+      padding: 20px 0;
+    }
+
+    .phone_number {
+      padding-top: 20px !important;
+      @extend .x_medium_white;
+      font-weight: bolder;
+    }
+  }
+
+  .map {
+    width: 350px;
+    height: 475px;
+    position: relative;
+    button {
+      width: 310px;
+      height: 46px;
+      position: absolute;
+      right: 19px;
+      bottom: 12px;
+      font-family: $font_third;
+      font-size: $font_x_small;
+    }
   }
 }
 
