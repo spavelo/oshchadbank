@@ -124,6 +124,7 @@
   width: 98%;
   background: $bg_color_fill_8;
   margin-right: 15px;
+  padding-bottom: 30px;
 
   .content {
     display: flex;
@@ -148,7 +149,8 @@
 
     #advice:checked ~ .headline_list .advice,
     #paperwork:checked ~ .headline_list .paperwork {
-      display: block;
+      display: flex;
+      flex-direction: column;
     }
 
     *, *:after, *:before {
@@ -224,8 +226,6 @@
   }
 
   .subtitle>.headline_list>.advice {
-    display: flex;
-    flex-direction: column;
     margin: auto;
     width: 538px;
     .explanation {
