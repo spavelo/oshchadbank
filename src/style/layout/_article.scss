@@ -118,6 +118,44 @@
   }
 }
 
+.offers {
+  width: 98%;
+  .pair, .odd {
+    display: flex;
+    //flex-direction: row;
+    justify-content: space-between;
+    height: 300px;
+    margin: 20px 0;
+    padding: 40px 0 0 60px;
+  }
+
+  .pair {
+    background: $bg_color_access_1;
+     .title {
+      @extend .xl_large_white;
+       font-family: $font_third;
+    }
+    .subtitle {
+      @extend .x_small_white;
+      font-family: $font_fourth;
+      padding: 20px 0 40px;
+    }
+
+  }
+  .odd {
+    background: $bg_color_access_2;
+    .title {
+      @extend .xl_large_white;
+      font-family: $font_third;
+    }
+    .subtitle {
+      @extend .x_small_white;
+      font-family: $font_fourth;
+      padding: 20px 0 30px;
+    }
+  }
+}
+
 .addition_info {
   padding-left: 60px;
   .title {
@@ -273,4 +311,3 @@
     }
   }
 }
-
