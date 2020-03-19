@@ -46,9 +46,12 @@
 .x_large_white {
   @include font_fabric($font_x_large, $text_color_white);
 }
-.xxl_medium_white {
-  @include font_fabric($font_xxl_medium, $text_color_white);
+.xl_medium_white {
+  @include font_fabric($font_xl_medium, $text_color_white);
   font-family: $font_secondary;
+}
+.xl_large_white {
+  @include font_fabric($font_xl_large, $text_color_white);
 }
 .xxl_large_white {
   @include font_fabric($font_xxl_large, $text_color_white);
