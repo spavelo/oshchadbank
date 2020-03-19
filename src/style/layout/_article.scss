@@ -117,3 +117,22 @@
     }
   }
 }
+
+
+.offers {
+  width: 98%;
+  height: 300px;
+  .supoffer .subtitle {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .supoffer {
+    background: $bg_color_access_1;
+
+  }
+}
+
+
+
+
