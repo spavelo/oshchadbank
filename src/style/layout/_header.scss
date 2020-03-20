@@ -56,28 +56,17 @@ nav {
   padding-right: 25px;
 
   button {
-    min-width: 80px;
-    height: 25px;
-    padding: 33px 0 30px 0;
+    margin-top: 9px;
+    height: 45px;
+    padding: 0 8px;
     text-transform: uppercase;
     font-family: $text_color_fill_4;
     font-weight: bolder;
     border: none;
-  }
 
-}
-
-nav:hover {
-  button {
-    min-width: 80px;
-    max-height: 15px;
-    margin-top: 15px;
-    padding: 20px 0 28px 0;
-    text-transform: uppercase;
-    font-family: $text_color_fill_4;
-    font-weight: bolder;
-    border: none;
-    background: $bg_color_fill_2;
+    &:hover {
+      background: $bg_color_fill_2;
+    }
   }
 }
 
