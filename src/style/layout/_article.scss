@@ -228,7 +228,7 @@
 
     #advice:checked ~ .headline_list .advice,
     #paperwork:checked ~ .headline_list .paperwork {
-      display: block;
+      display: flex;
       flex-direction: column;
     }
 
@@ -248,7 +248,6 @@
         align-items: start;
         label {
           align-items: center;
-          border-bottom: 1px;
           padding: 10px 20px;
           @extend .x_small_black;
           font-weight: bolder;
