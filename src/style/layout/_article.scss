@@ -224,7 +224,7 @@
     }
     #advice:checked ~ .navigation .advice2,
     #paperwork:checked ~ .navigation .paperwork2 {
-      background: red;
+      background: $bg_color_fill_2;
     }
 
     #advice:checked ~ .headline_list .advice,
@@ -247,7 +247,9 @@
         display: flex;
         justify-content: start;
         align-items: start;
-        ul>li>label {
+        label {
+          align-items: center;
+          border-bottom: 1px;
           padding: 10px 20px;
           @extend .x_small_black;
           font-weight: bolder;
@@ -255,31 +257,13 @@
           border: 1px solid $bg_color_fill_2;
           background: $bg_color_white;
         }
-        ul>li>label:hover {
+        label:hover {
           background: $bg_color_fill_2;
         }
-        ul>li>label:active {
+        label:active {
           background: $bg_color_fill_6;
         }
       }
-    }
-
-    .headline ul {
-      list-style-type: none;
-      display: flex;
-      flex-direction: row;
-      align-items: start;
-      padding-inline-start: 0;
-    }
-
-    .headline ul li label {
-      align-items: center;
-      padding: 15px 1px;
-      border: 1px solid #dddddd;
-      border-bottom: 1px;
-      background: $bg_color_fill_8;
-      color: black;
-      font-size: 10px;
     }
 
     select, input, button {
