@@ -41,6 +41,37 @@ aside {
     font-family: $font_secondary;
     padding-left: 35px;
   }
+  .enter_in_veb-bank, .map_info {
+    font-family: $font_primary;
+    text-decoration: none;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 11px 11px;
+    color: white;
+  }
+  .enter_in_veb-bank {
+    padding: 6px 36% 6px 32px;
+    background-image: url("/img/dashbord/key_ico.png");
+  }
+  .map_info {
+    padding: 6px 32% 6px 32px;
+    width: 100%;
+    background-image: url("/img/dashbord/key_ico.png");
+  }
+
+  .enter_in_veb-bank:hover,.map_info:hover  {
+    background: $bg_color_fill_2;
+    background-image: url("/img/dashbord/key_ico_black.png");
+    background-repeat: no-repeat;
+    background-position: 11px 11px;
+    color: $text_color_black;
+  }
+  .enter_in_veb-bank:active,.map_info:active {
+    background: $bg_color_fill_6;
+    background-image: url("/img/dashbord/key_ico_black.png");
+    background-repeat: no-repeat;
+    background-position: 11px 11px;
+  }
 
   button {
     color: $text_color_white;
@@ -48,14 +79,50 @@ aside {
     border: none;
     font-family: $font_primary;
     font-size: inherit;
-    padding: 11px 35px 11px 35px;
+    width: 100%;
+    height: 30px;
+    text-align: start;
+    text-indent: 30px;
+    vertical-align: center;
+    background: none;
+    position: relative;
+    z-index: 1;
+    outline: none;
   }
 
-  .enter > img, a {
-    font-family: $font_primary;
-    padding-left: 8px;
-    text-decoration: none;
-    @include interaction($text_color_fill_8,$text_color_fill_5,$text_color_fill_6,$text_color_fill_7);
+  .first_list>button::before,
+  .second_list>button::before {
+    content: "";
+    color: white;
+    display: block;
+    height: 30px;
+    width: 2%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition-timing-function: linear;
+    transition-duration:.2s;
+  }
+  .first_list>button::before {
+    background: $bg_color_access_3;
+  }
+  .second_list>button::before {
+    background: $bg_color_access_4;
+  }
+  .first_list>button:hover::before {
+    width: 100%;
+  }
+  .first_list>button:active::before {
+       background: $bg_color_access_6;
+    width: 100%;
+  }
+  .second_list>button:hover::before {
+    width: 100%;
+  }
+  .second_list>button:active::before {
+       background: $bg_color_access_5;
+    width: 100%;
   }
 
   .aside_footer {
@@ -75,17 +142,17 @@ aside {
 
       button {
         width: 240px;
+        height: 45px;
         background: $bg_color_black;
-        padding-left: 0;
         background-image: url("/img/dashbord/help.png");
         background-repeat: no-repeat;
-        background-position: 15px 14px;
+        background-position: 14px 13px;
+        padding: 6px 32% 6px 5px;
       }
-
     }
 
     .help:hover {
-      button:hover {
+      button {
         color: $text_color_black;
         background: $bg_color_fill_2;
         background-image: url("/img/dashbord/help_black.png");
@@ -95,7 +162,7 @@ aside {
     }
 
     .help:active {
-      button:active {
+      button {
         color: $text_color_black;
         background: $bg_color_fill_6;
         background-image: url("/img/dashbord/help_black.png");
