@@ -222,10 +222,14 @@
       display: none;
 
     }
+    #advice:checked ~ .navigation .advice2,
+    #paperwork:checked ~ .navigation .paperwork2 {
+      background: red;
+    }
 
     #advice:checked ~ .headline_list .advice,
     #paperwork:checked ~ .headline_list .paperwork {
-      display: flex;
+      display: block;
       flex-direction: column;
     }
 
