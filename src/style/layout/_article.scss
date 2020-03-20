@@ -50,7 +50,7 @@
 }
 
 .loyalty_program {
-  margin: 0 0 0 60px;
+  margin: 0 0 70px 60px;
   max-width: 468px;
   line-height: 22px;
   word-spacing: 5px;
@@ -158,6 +158,7 @@
 
 .addition_info {
   padding-left: 60px;
+  margin-bottom: 70px;
   .title {
     @extend .x_large_black;
     font-family: $font_third;
