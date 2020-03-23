@@ -13,7 +13,12 @@
     background: $bg_color_white;
     width: 135px;
     height: 36px;
-    @include interaction($text_color_black, $text_color_fill_4, $text_color_fill_4, $text_color_fill_1)
+  }
+  select:hover {
+    background: $bg_color_fill_2;
+  }
+  select:active {
+    background: $bg_color_fill_6;
   }
 
   .table {
@@ -46,6 +51,12 @@
     font-family: $font_secondary;
     border: 1px solid blue;
     margin: 20px 0 60px 0;
+  }
+  button:hover {
+    background: $bg_color_fill_2;
+  }
+  button:active {
+    background: $bg_color_fill_6;
   }
 }
 
@@ -114,6 +125,13 @@
       bottom: 12px;
       font-family: $font_third;
       font-size: $font_x_small;
+      border: $bg_color_fill_7 solid 2px;
+    }
+    button:hover {
+      background: $bg_color_fill_2;
+    }
+    button:active {
+      background: $bg_color_fill_6;
     }
   }
 }

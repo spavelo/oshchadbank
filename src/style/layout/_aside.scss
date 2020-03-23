@@ -46,15 +46,15 @@ aside {
     text-decoration: none;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: 11px 11px;
+    background-position: 11px 14px;
     color: white;
   }
   .enter_in_veb-bank {
-    padding: 6px 36% 6px 32px;
+    padding: 6px 24% 6px 32px;
     background-image: url("/img/dashbord/key_ico.png");
   }
   .map_info {
-    padding: 6px 32% 6px 32px;
+    padding: 6px 18% 6px 32px;
     width: 100%;
     background-image: url("/img/dashbord/key_ico.png");
   }
@@ -63,7 +63,7 @@ aside {
     background: $bg_color_fill_2;
     background-image: url("/img/dashbord/key_ico_black.png");
     background-repeat: no-repeat;
-    background-position: 11px 11px;
+    background-position: 11px 14px;
     color: $text_color_black;
   }
   .enter_in_veb-bank:active,.map_info:active {

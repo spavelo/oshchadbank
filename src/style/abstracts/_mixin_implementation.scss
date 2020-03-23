@@ -43,7 +43,7 @@
 .x_large_black {
   @include font_fabric($font_x_large, $text_color_black);
 }
-.x_large_white {dsaas
+.x_large_white {
   @include font_fabric($font_x_large, $text_color_white);
 }
 .xl_medium_white {
