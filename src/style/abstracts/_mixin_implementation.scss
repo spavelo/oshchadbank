@@ -54,7 +54,7 @@
   @include font_fabric($font_xl_large, $text_color_white);
 }
 .xxl_large_white {
-  @include font_fabric($font_xxl_large, $text_color_white);
+  @include font_fabric(75px, $text_color_white);
 }
 
 
